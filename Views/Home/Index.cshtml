@@ -2,7 +2,25 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="row">
+    <div class="col-sm-6">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Q-LESS Transport Card</h5>
+                <p class="card-text">100 php initial load</p>
+                <p class="card-text">Valid up to 5 years after the last used date</p>
+                <a asp-controller="Home" asp-action="BuyQLessTransportCard" class="btn btn-primary" onclick="confirm('Buy Q-Less Transport Card?')">Buy Q-LESS Transport Card</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Q-LESS Discounted Transport Card</h5>
+                <p class="card-text">500 php initial load</p>
+                <p class="card-text">Valid up to 3 years after the last used date</p>
+                <a asp-controller="Home" asp-action="QLessDiscountedTransportCard" class="btn btn-primary">Buy Q-LESS Discounted Transport Card</a>
+            </div>
+        </div>
+    </div>
 </div>

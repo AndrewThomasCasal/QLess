@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\druca\\source\\repos\\QLess\\QLess.csproj": {}
+    "C:\\Users\\andrcasa\\source\\repos\\QLess\\QLess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\druca\\source\\repos\\QLess\\QLess.csproj": {
+    "C:\\Users\\andrcasa\\source\\repos\\QLess\\QLess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\druca\\source\\repos\\QLess\\QLess.csproj",
+        "projectUniqueName": "C:\\Users\\andrcasa\\source\\repos\\QLess\\QLess.csproj",
         "projectName": "QLess",
-        "projectPath": "C:\\Users\\druca\\source\\repos\\QLess\\QLess.csproj",
-        "packagesPath": "C:\\Users\\druca\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\druca\\source\\repos\\QLess\\obj\\",
+        "projectPath": "C:\\Users\\andrcasa\\source\\repos\\QLess\\QLess.csproj",
+        "packagesPath": "C:\\Users\\andrcasa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\andrcasa\\source\\repos\\QLess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\druca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\andrcasa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -49,6 +49,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.17, )"
+            },
+            "jQuery.InputMask": {
+              "target": "Package",
+              "version": "[5.0.7, )"
             }
           },
           "imports": [
@@ -69,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     }
